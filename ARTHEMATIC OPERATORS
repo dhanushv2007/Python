@@ -1,0 +1,11 @@
+#PERFORMING ARTHEMATIC OPERATIONS
+num1=int(input("Enter First Number:"))        #taking input of num1(integer)
+num2=int(input("Enter Second Number:"))       #taking input of num2(integer)
+sum=num1+num2                                 #calculating sum
+mul=num1*num2                                 #calculating multiplication
+div=num1/num2                                 #calculating division
+sub=num1-num2                                 #calculating subtraction
+print(f"""SUM: {sum}                  
+SUBTRACTION: {sub}                           
+MULTIPLICATION: {mul}
+DIVISION: {div:.2f}""")                       #giving output
