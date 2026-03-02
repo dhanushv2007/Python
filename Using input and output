@@ -1,0 +1,4 @@
+num1=int(input("Enter any integer:"))           #taking input of num1(integer)
+num2=int(input("Enter any integer:"))           #taking input of num2(integer)
+sum=num1+num2                                   #calculating sum
+print(f"The Sum Of {num1} and {num2} is {sum}") #giving output
