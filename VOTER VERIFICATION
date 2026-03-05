@@ -1,0 +1,6 @@
+print("~~~VOTER VERIFICATION~~~")
+age=int(input("Enter Your Age:-"))
+if age<18:
+        print("Your Are Not Eligible For Voting!")
+else:
+    print("You Are Eligible For Voting")
