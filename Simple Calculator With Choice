@@ -1,16 +1,16 @@
 print("~~SIMPLE CALCULATOR~~")
 print("1.ADDTION\n2.SUBTRACTION\n3.MULTIPLICATION\n4.DIVISION")
-choice=int(input("Enter Your Choice:"))
-num1=float(input("Enter First Number:"))
-num2=float(input("Enter Second Number:"))
-if choice==1:
+choice=int(input("Enter Your Choice:"))                                  #input choice
+num1=float(input("Enter First Number:")                                  #input number 1
+num2=float(input("Enter Second Number:"))                                #input number 2
+if choice==1:                                                            #first condition(choice=1)
     print(f"Addition of {num1} and {num2} is {num1+num2}")
-elif choice==2:
+elif choice==2:                                                          #second condition(choice=2)
     print(f"Subtraction of {num2} from {num1} is {num1-num2}")
-elif choice==3:
-    print(f"Multiplication of {num1} and {num2} is {num1*num2}")
-else :
-    if num2==0:
+elif choice==3:                                                          #third condition(choice=3)
+    print(f"Multiplication of {num1} and {num2} is {num1*num2}")         
+else :                                                                   #else condition
+    if num2==0:                                                          #error condition                                                          
         print("ERROR!!!!")
     else:
         print(f"Division of {num1} from {num2} is {num1/num2}")
