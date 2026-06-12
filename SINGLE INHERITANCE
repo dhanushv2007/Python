@@ -1,0 +1,18 @@
+class parent:
+    def __init__(self):
+        self.name=input("Enter the name = ")
+        self.age=input("Enter the age = ")
+    def display(self):
+        print(self.name)
+        print(self.age)
+class Child(parent):
+    def __init__(self):
+        super().__init__()
+        self.sname=input("Enter the name = ")
+        self.sage=input("Enter the age = ")
+    def display(self):
+        super().display()
+        print(self.sname)
+        print(self.sage)
+ob=Child()
+ob.display()
