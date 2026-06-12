@@ -1,0 +1,29 @@
+class Shapes:
+    def setLength(self):
+        self.Length=float(input("Enter the length = "))
+    def setBreadth(self):
+        self.Breadth=float(input("Enter the breadth = "))
+class Rectangle(Shapes):
+    def calculation(self):
+        self.area=self.Length*self.Breadth
+        self.perimeter=2*(self.Length+self.Breadth)
+    def display(self):
+        print("Rectangle area    =",self.area)
+        print("Rectangle perimeter =",self.perimeter)
+class Square(Shapes):
+    def calculation(self):
+        self.area=self.Length**2
+        self.perimeter=4*self.Length
+    def display(self):
+        print("Square area    =",self.area)
+        print("Square perimeter =",self.perimeter)
+r=Rectangle()
+r.setLength()
+r.setBreadth()
+r.calculation()
+r.display()
+
+s=Square()
+s.setLength()
+s.calculation()
+s.display()
