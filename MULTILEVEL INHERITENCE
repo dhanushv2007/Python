@@ -1,0 +1,23 @@
+class Insitute:
+    def setInsituteNmae(self):
+        self.InsituteName="SRI KRISHNA INSTITUTE OF TECHNOLOGY"
+
+class Department(Insitute):
+    def setDepartmentName(self):
+        self.DepartmentName="ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING"
+
+class Class(Department,Insitute):
+
+    def setClassName(self):
+        self.ClassName="'B' SECTION"
+    def display(self):
+
+
+        print(f"INSTITUTE NAME    = {self.InsituteName}")
+        print(f"DEPARTMENT NAME   = {self.DepartmentName}")
+        print(f"CLASS NAME        = {self.ClassName}")
+ob=Class()
+ob.setInsituteNmae()
+ob.setDepartmentName()
+ob.setClassName()
+ob.display()
